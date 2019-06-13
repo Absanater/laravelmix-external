@@ -7,7 +7,7 @@ async function f() {
   const result = await promise;
 
   const node = document.createElement("P");
-  var textnode = document.createTextNode(result);
+  const textnode = document.createTextNode(result);
 
   node.appendChild(textnode);
 
