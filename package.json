@@ -1,0 +1,23 @@
+{
+  "name": "mix-external",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "2.0.1",
+    "laravel-mix": "^4.0.16",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.21.0",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
